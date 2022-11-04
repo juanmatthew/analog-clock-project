@@ -13,4 +13,34 @@ body {
     width: 300px;
     border-radius: 150px;
     border: 5px solid lawngreen;
+    position: absolute;
+}
+
+#seconds-hand {
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    background-color: #46ffff;
+    bottom: 149px;
+    /* you need position: absolute for this to work properly and you need to add it to the clock as well -absolute is better than relative here and wont mess the other id styles up */
+    right: 149px;
+    opacity: 50%;
+}
+
+#minutes-hand {
+    position: absolute;
+    height: 100px;
+    width: 3px;
+    background-color: #ff49f0;
+    right: 148px;
+    bottom: 148px;
+}
+
+#hours-hand {
+    position: absolute;
+    height: 80px;
+    width: 5px;
+    background-color: #eeff00;
+    right: 147px;
+    bottom: 147px;
 }
