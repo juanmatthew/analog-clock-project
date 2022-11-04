@@ -1,0 +1,16 @@
+/*to center the clock in the middle - all of these are needed to center something especially since some need each other in different ways*/
+body {
+    display: flex;
+    justify-content: center;
+    /*need to center mid page so u need align items but need to add height so use viewport height (vh)*/
+    align-items: center;
+    height: 100vh;
+    background-color: #444444;
+}
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: 5px solid lawngreen;
+}
